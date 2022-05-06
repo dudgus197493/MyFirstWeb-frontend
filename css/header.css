@@ -50,16 +50,24 @@ header {
 }
 .search_input {
     font-size: 17px;
-
     width: 230px;
     padding: 8px 23px;
     border: none;
     border-bottom: 2.5px solid rgba(255, 255, 255, 1);
 }
-.invisible {
+.select_search {
+    border: none;
+    font-size: 17px;
+}
+.select_search option{
+    appearance: none;
+    background-color: black;
+    border-radius: 20px;
+}
+/* .invisible {
     opacity: 0;
     transition: 0.2s opacity ease-in-out;
-}
+} */
     /* search-box responsive codeㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 .header_left-search:hover > .header_left-column:last-child .invisible {
     opacity: 0.5;

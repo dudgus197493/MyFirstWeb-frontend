@@ -5,6 +5,7 @@ main {
 }
 .main_row {
     width: 100%;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 .main_row:first-child {
     display: flex;
@@ -19,9 +20,12 @@ main {
 }
 .main_row-side {
     width: 30%;
+    opacity: 1;
+    transition: 0.2s;
 }
 .main_row-side:first-child {
     justify-content: end;
+    font-size: 30px;
 }
 .main_row-clock{
     width: 40%;
@@ -29,7 +33,6 @@ main {
     font-family: 'LAB디지털';
     font-size: 170px;
 }
-
 .main_row:nth-child(2) {
     display: flex;
     height: 10vh;
@@ -37,10 +40,10 @@ main {
     align-items: center;
     font-size: 50px;
 }
-.main_row:nth-child(2),
+/* .main_row:nth-child(2),
 .main_row:last-child {
     font-family: 'Nanum Gothic', sans-serif;
-}
+} */
 .main_row-form {
     display: flex;
     flex-direction: column;
@@ -64,3 +67,9 @@ main {
     color: rgba(255, 255, 255, 0.6);
     font-style: italic;
 }
+
+/* responsive act */
+.main_row:hover > .main_row-side {
+    opacity: 1;
+}
+
