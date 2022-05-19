@@ -85,6 +85,12 @@
                 
         </div>
         <div class="toDo">
+            <template>
+                <li class="Todo_list">
+                    <input type="checkbox">
+                    <span>Add New Todo</span>    
+                </li>
+            </template>
             <!-- <span>Todo</span> -->
             <button onclick="fn_TodoAct()">Todo</button>
             <div class="Todo-arrow_menu">
@@ -93,26 +99,11 @@
                 </div>
                 <div class="Todo-arrow_menu-row">
                     <ul class="Todo_lists">
-                        <li class="Todo_list">
-                            <input type="checkbox">
-                            <span>Add New Todo</span>    
-                        </li>
-                        <li class="Todo_list">
-                            <input type="checkbox">
-                            <span>Add New Todo</span>    
-                        </li>
-                        <li class="Todo_list">
-                            <input type="checkbox">
-                            <span>Add New Todo</span>    
-                        </li>
-                        <li class="Todo_list">
-                            <input type="checkbox">
-                            <span>Add New Todo</span>    
-                        </li>
+                                                
                     </ul>
                 </div>
                 <div class="Todo-arrow_menu-row">
-                    <form action="">
+                    <form name="toDo_frm">
                         <input class="Todo_input" type="text" placeholder="New Todo">
                     </form>
                 </div>
@@ -123,5 +114,6 @@
     <script src="scripts/clock.js"></script>
     <script src="scripts/arrow_menu.js"></script>
     <script src="scripts/search.js"></script>
+    <script src="scripts/todo.js"></script>
 </body>
 </html>

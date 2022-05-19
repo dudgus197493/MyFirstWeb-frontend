@@ -104,6 +104,7 @@ footer {
 }
 .Todo-arrow_menu-row:nth-child(2) .Todo_list{
     padding: 2px 0px;
+    text-align: start;
 }
 .Todo-arrow_menu-row:last-child {
     padding-bottom: 10px;
