@@ -1,0 +1,14 @@
+@import "/css/reset.css";
+@import "header.css";
+@import "admin-main.css";
+
+/* layout config */
+header {
+    background : #999;
+}
+.admin-menu {
+    background: #666;
+}
+.admin-menu_column {
+    background: #333;
+}
